@@ -7,8 +7,6 @@
 # Overview
 The IONOS Container Registry SDK for Java provides you with access to the Container Registry API. Container Registry service enables IONOS clients to manage docker and OCI compliant registries for use by their manage Kubernetes clusters. Use a Container Registry to ensure you have a privately accessed registry to efficiently support image pulls.
 
-> ⚠️ **Note:** Container registry is currently in the **Early Access (EA)** phase. We recommend keeping usage and testing to non-production critical applications. Please contact your sales representative or support for more information.
-
 ## Getting Started
 
 An IONOS account is required for access to the Cloud API; credentials from your registration are used to authenticate against the IONOS Cloud API.
