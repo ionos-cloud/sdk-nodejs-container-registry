@@ -135,7 +135,6 @@ api_instance
     registryId: 38400000-8cf0-11bd-b23e-10b96e4ef00d,
     offset: offset_example,
     limit: limit_example, 
-    orderBy: "<property_name>"
     maxResults: 2,
     filters: filterMap
     options: {}

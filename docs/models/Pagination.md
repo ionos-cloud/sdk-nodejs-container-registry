@@ -3,7 +3,8 @@
 ## Properties
 | Name | Type | Description | Notes |
 | ------------ | ------------- | ------------- | ------------- |
-| **limit** | **number** | The maximum number of elements to return (used together with pagination.token for pagination) | [default to undefined] |
-| **token** | **string** | An opaque token used to iterate the set of results (used together with limit for pagination) | [default to undefined] |
+| **offset** | **number** | The offset specified in the request (if none was specified, the default offset is 0) (not implemented yet).  | [optional] [readonly] [default to undefined] |
+| **limit** | **number** | The limit specified in the request (if none was specified, use the endpoint\'s default pagination limit) (not implemented yet, always return number of items).  | [optional] [readonly] [default to undefined] |
+| **_links** | [**Links**](Links.md) |  | [optional] [default to undefined] |
 
 

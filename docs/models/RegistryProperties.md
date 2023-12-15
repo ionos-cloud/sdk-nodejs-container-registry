@@ -8,5 +8,6 @@
 | **location** | **string** |  | [default to undefined] |
 | **name** | **string** |  | [default to undefined] |
 | **storageUsage** | [**StorageUsage**](StorageUsage.md) |  | [optional] [default to undefined] |
+| **features** | [**RegistryFeatures**](RegistryFeatures.md) |  | [optional] [default to undefined] |
 
 

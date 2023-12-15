@@ -133,7 +133,6 @@ api_instance
     filterName: my-registry,
     limit: limit_example,
     paginationToken: eyJ2IjoibWV0YS5rOHMuaW8vdjEiLCJydiI6MTYzMjQ0OTk2ODAsInN0YXJ0IjoiM2RmYTc3YjctZGIwNS00MjMwLThmMjAtOGU3NjJlOTUxOTUzXHUwMDAwIn0
-    orderBy: "<property_name>"
     maxResults: 2,
     filters: filterMap
     options: {}
@@ -220,7 +219,7 @@ basicAuth, tokenAuth
 
 Create container registry
 
-Create a registry to hold container images or OCI compliant artifacts - \"name\" must have passed validation - \"location\" must be one of the available location IDs - \"garbageCollectionSchedule\" time and days of the week for runs
+Create a registry to hold container images or OCI compliant artifacts - \"name\" must have passed validation - \"location\" must be one of the available location IDs - \"garbageCollectionSchedule\" time and days of the week for runs - \"features\": \"vulnerabilityScanning\" default is enabled
 
 ### Examples
 
@@ -268,7 +267,7 @@ basicAuth, tokenAuth
 
 Create or replace a container registry
 
-Create/replace a registry to hold container images or OCI compliant artifacts  **On create** - \"name\" must have passed validation - \"location\" must be one of the available location IDs  **On update** - \"name\" cannot be changed - \"location\" cannot be changed  **On create or update** - \"garbageCollectionSchedule\": time and days of the week for runs 
+Create/replace a registry to hold container images or OCI compliant artifacts **On create** - \"name\" must have passed validation - \"location\" must be one of the available location IDs **On update** - \"name\" cannot be changed - \"location\" cannot be changed **On create or update** - \"garbageCollectionSchedule\": time and days of the week for runs 
 
 ### Examples
 
